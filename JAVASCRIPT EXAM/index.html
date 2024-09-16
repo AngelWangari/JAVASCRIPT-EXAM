@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="banner">
+            <p id="angel"></p>
+            <h2>Grocery Bud</h2>
+            <form action="" id="groceryForm">
+                <input type="text" placeholder="e.g.eggs" name="grocery" >
+              
+                  
+                <button class="btn modal-btn" onclick="display()">Submit</button>
+               </form>
+               <p id="Hope" style="display:none" onclick="clear()">Clear Items</p>
+
+               <ul id="list">
+     <i class="edit-icon" onclick="edit()">✏️</i>
+  <i class="delete-icon" onclick="remove()">🗑️</i>
+               </ul>
+         </div>
+    </div>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
